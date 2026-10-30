@@ -6,11 +6,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Servicii Înmatriculări Auto | Acte Auto de la A la Z | Acte Auto 502',
-  description: 'Servicii complete de înmatriculări auto: contracte, traduceri, RAR, ITP, numere definitive, radieri. Ne ocupăm de tot, rapid și fără bătăi de cap. Sună: 0753.867.235',
+  title: 'Înmatriculări Auto Cluj-Napoca | Acte Auto 502',
+  description: 'Înmatriculări auto, contracte, RAR, ITP și traduceri autorizate în Cluj-Napoca și împrejurimi. Contactează Acte Auto 502 la 0753.867.235.',
   openGraph: {
-    title: 'Servicii Complete de Înmatriculări Auto | Acte Auto 502',
-    description: 'Înmatriculări auto de la A la Z — simplu, rapid, fără bătăi de cap.',
+    title: 'Înmatriculări Auto Cluj-Napoca | Acte Auto 502',
+    description: 'Servicii de acte auto în Cluj-Napoca și împrejurimi.',
     locale: 'ro_RO',
     type: 'website',
   },
