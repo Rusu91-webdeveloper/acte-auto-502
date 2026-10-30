@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Politica de confidențialitate | Acte Auto 502',
   description: 'Informații despre prelucrarea datelor personale în relația cu Acte Auto 502.',
+  alternates: { canonical: '/confidentialitate' },
 }
 
 export default function PrivacyPage() {

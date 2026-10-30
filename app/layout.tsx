@@ -6,6 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.acteauto502.ro'),
+  applicationName: 'Acte Auto 502',
   title: 'Înmatriculări Auto Cluj-Napoca | Acte Auto 502',
   description: 'Înmatriculări auto, contracte, RAR, ITP și traduceri autorizate în Cluj-Napoca și împrejurimi. Contactează Acte Auto 502 la 0753.867.235.',
   openGraph: {
@@ -13,6 +15,9 @@ export const metadata: Metadata = {
     description: 'Servicii de acte auto în Cluj-Napoca și împrejurimi.',
     locale: 'ro_RO',
     type: 'website',
+    siteName: 'Acte Auto 502',
+    url: '/',
+    images: [{ url: '/images/hero-road-v2.png', alt: 'Acte Auto 502 — servicii auto în Cluj-Napoca' }],
   },
 }
 
