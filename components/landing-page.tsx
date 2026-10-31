@@ -40,7 +40,7 @@ export function LandingPage() {
     </header>
     <main>
       <section className="hero" id="acasa">
-        <Image src="/images/hero-road-v2.png" alt="Autoturism pe un drum de munte la amurg" fill priority sizes="100vw" className="hero-image" />
+        <Image src="/images/hero-road-v2.webp" alt="Autoturism pe un drum de munte la amurg" fill priority sizes="100vw" className="hero-image" />
         <div className="hero-shade" />
         <div className="hero-orbit" aria-hidden="true"><span/><span/><span/><i/></div><div className="hero-interface" aria-hidden="true"><div className="interface-head"><span>THE ROAD AHEAD</span><span>502 / AUTO</span></div><div className="interface-radar"><span className="radar-cross cross-a"/><span className="radar-cross cross-b"/><span className="radar-center"/><span className="radar-ring ring-a"/><span className="radar-ring ring-b"/><span className="radar-sweep"/><div className="radar-caption">YOUR NEXT<br/><b>MOVE.</b></div></div><div className="interface-foot"><span>CLARITATE ÎN MIȘCARE</span><span>● &nbsp; READY</span></div></div>
         <div className="hero-content wrap hero-entrance"><div className="hero-topline"><span className="status-dot"/> SERVICII COMPLETE DE ACTE AUTO <span className="hero-line"/> CLUJ-NAPOCA</div><h1>Înmatriculări auto<br/><em>în Cluj-Napoca.</em></h1><p>Tu bucură-te de mașină, noi te ajutăm cu actele auto în Cluj-Napoca și împrejurimi.</p><div className="hero-buttons"><a className="button button-light" href="#servicii">Descoperă serviciile <ArrowDown size={17}/></a><a className="hero-call" href="tel:0753867235"><span className="round-icon"><Phone size={16}/></span><span>Preferi să vorbim?<strong>{phone}</strong></span></a></div></div>

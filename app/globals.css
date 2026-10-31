@@ -19,4 +19,5 @@
 .hero h1{font-size:clamp(48px,6vw,90px)}
 .guide-actions{display:flex;align-items:center;gap:28px;flex-wrap:wrap;margin-top:28px}
 .privacy-content section>div{grid-column:2}
+.privacy-content ul{padding-left:20px;margin:0 0 15px;color:#59665c;font-size:15px;line-height:1.8}.guide-business{margin-top:36px;color:var(--muted);font-size:13px;line-height:1.8}.guide-business a{text-decoration:underline;text-underline-offset:3px;color:var(--ink)}
 @media(max-width:650px){.hero h1{font-size:clamp(42px,9vw,58px)}.guide-actions{gap:16px}}
