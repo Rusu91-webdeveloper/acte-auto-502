@@ -8,6 +8,15 @@ const inter = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-inter' 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.acteauto502.ro'),
   applicationName: 'Acte Auto 502',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-502-48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/favicon-502-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/favicon-502.svg', type: 'image/svg+xml' },
+    ],
+    apple: [{ url: '/apple-touch-icon-502.png', sizes: '180x180', type: 'image/png' }],
+  },
   title: 'Înmatriculări Auto Cluj-Napoca | Acte Auto 502',
   description: 'Înmatriculări auto, contracte, RAR, ITP și traduceri autorizate în Cluj-Napoca și împrejurimi. Contactează Acte Auto 502 la 0753.867.235.',
   openGraph: {
