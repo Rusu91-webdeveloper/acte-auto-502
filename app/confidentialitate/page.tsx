@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: 'Politica de confidențialitate | Acte Auto 502',
   description: 'Informații despre prelucrarea datelor personale în relația cu Acte Auto 502.',
   alternates: { canonical: '/confidentialitate' },
+  openGraph: {
+    title: 'Politica de confidențialitate | Acte Auto 502',
+    description: 'Informații despre prelucrarea datelor personale în relația cu Acte Auto 502.',
+    url: '/confidentialitate',
+    locale: 'ro_RO',
+    type: 'website',
+    siteName: 'Acte Auto 502',
+  },
 }
 
 export default function PrivacyPage() {
