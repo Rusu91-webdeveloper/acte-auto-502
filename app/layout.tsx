@@ -32,6 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ro" className="bg-background">
       <body className={`${inter.variable} font-sans antialiased`}>
+        <a className="skip-link" href="#main-content">Sari la conținut</a>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

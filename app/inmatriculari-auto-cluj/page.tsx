@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 }
 
 export default function RegistrationPage() {
-  return <main className="privacy-page"><div className="privacy-wrap">
+  return <main id="main-content" className="privacy-page guide-page"><header className="guide-header wrap"><Link href="/" className="guide-brand" aria-label="Acte Auto 502, acasă"><span>502<em>.</em></span><strong>ACTE AUTO<small>ÎNMATRICULĂRI</small></strong></Link><a href="tel:0753867235" className="guide-header-phone">Sună: 0753.867.235 ↗</a></header><div className="privacy-wrap">
     <Link href="/" className="privacy-back">← ÎNAPOI LA SITE</Link>
     <span className="eyebrow"><span/> ACTE AUTO 502 · CLUJ-NAPOCA</span>
     <h1>Înmatriculări auto <em>în Cluj-Napoca.</em></h1>

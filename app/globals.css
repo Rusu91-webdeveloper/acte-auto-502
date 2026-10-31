@@ -21,3 +21,21 @@
 .privacy-content section>div{grid-column:2}
 .privacy-content ul{padding-left:20px;margin:0 0 15px;color:#59665c;font-size:15px;line-height:1.8}.guide-business{margin-top:36px;color:var(--muted);font-size:13px;line-height:1.8}.guide-business a{text-decoration:underline;text-underline-offset:3px;color:var(--ink)}
 @media(max-width:650px){.hero h1{font-size:clamp(42px,9vw,58px)}.guide-actions{gap:16px}}
+
+/* Clear contact paths and keyboard navigation. */
+.skip-link{position:fixed;z-index:200;top:10px;left:10px;padding:13px 18px;background:#fff;color:#17231e;font-weight:700;transform:translateY(-150%)}
+.skip-link:focus{transform:translateY(0)}
+:focus-visible{outline:3px solid #8aa72b;outline-offset:4px}
+.hero-entrance .hero-topline,.hero-entrance h1,.hero-entrance>p,.hero-entrance .hero-buttons,.hero-image{animation:none}
+.hero-content>p:not(.hero-note){max-width:540px}
+.hero-services{display:inline-flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid #ffffffa0;font-size:13px;font-weight:700;color:#fff}
+.hero-services:hover{color:var(--lime);border-color:var(--lime)}
+.hero-content>p.hero-note{margin-top:22px;color:#ffffffb8;font-size:13px;max-width:none}
+.assurance-strip{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:10px;letter-spacing:.11em;font-weight:800}
+.assurance-strip span+span:before{content:'✳';margin-right:18px;color:#637c22}
+.guide-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:28px;border-bottom:1px solid #cdd2c9;margin-bottom:55px}
+.guide-brand{display:flex;align-items:center;gap:10px}.guide-brand>span{font-size:34px;font-weight:900;letter-spacing:-3px;line-height:1}.guide-brand>span em{color:#809c31;font-style:normal}.guide-brand strong{font-size:10px;letter-spacing:.12em;line-height:1.2}.guide-brand small{display:block;font-size:7px;letter-spacing:.14em;color:#677466}
+.guide-header-phone{font-size:13px;font-weight:700}.guide-header-phone:hover{text-decoration:underline;text-underline-offset:4px}.guide-page .privacy-back{margin-bottom:55px}
+@media(min-width:801px){.mobile-nav{display:none}}
+@media(max-width:800px){.menu-toggle{display:grid;place-items:center;width:44px;height:44px;padding:0}.hero-buttons{gap:22px}.hero-content>p.hero-note{font-size:12px;line-height:1.5;max-width:290px}.assurance-strip{min-height:72px;justify-content:flex-start;flex-wrap:wrap;gap:7px 18px;padding:14px 0;font-size:9px}.assurance-strip span+span:before{margin-right:8px}.guide-header{margin-bottom:42px}.guide-header-phone{font-size:12px}.guide-page .privacy-back{margin-bottom:42px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

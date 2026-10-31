@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 }
 
 export default function PrivacyPage() {
-  return <main className="privacy-page"><div className="privacy-wrap">
+  return <main id="main-content" className="privacy-page"><div className="privacy-wrap">
     <Link href="/" className="privacy-back">← ÎNAPOI LA SITE</Link>
     <span className="eyebrow"><span/> INFORMAȚII PENTRU CLIENȚI</span>
     <h1>Politica de <em>confidențialitate.</em></h1>
